@@ -1,0 +1,18 @@
+Default: &defaults
+  host: "127.0.0.1"
+  port: 8282
+  copyright: Insert copyright statement here
+  #analytics: UA-YOURCODE
+
+Development:
+  <<: *defaults
+
+Testing:
+  <<: *defaults
+
+Staging:
+  <<: *defaults
+
+Production:
+  approot: "http://gitweb.konn-san.com"
+  <<: *defaults

@@ -1,0 +1,15 @@
+$maybe usr <- musr
+  You are logged in as #{userIdent usr}. #
+  <a href=@{AuthR LogoutR}>
+    logout
+  .
+$nothing
+  Not logged in. #
+  <a href=@{AuthR LoginR}>
+    login
+  .
+$maybe msg <- mmsg
+    <div #message>#{msg}
+^{widget}
+<footer>
+    #{extraCopyright $ appExtra $ settings master}

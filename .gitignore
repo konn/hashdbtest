@@ -1,0 +1,11 @@
+.DS_Store
+*\~
+\#*\#
+*.hi
+*.o
+static/tmp
+*.sqlite3
+*.aes
+dist
+cabal-dev
+deploy
