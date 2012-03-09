@@ -1,0 +1,58 @@
+GET /test
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+"http://konn-san.com/test/"
+Status: 303 See Other. /test
+
+GET /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Status: 200 OK. /
+
+GET /static/js/modernizr.js
+Accept: */*
+GET [("?-nhfNco9","")]
+
+Status: 304 Not Modified. /static/js/modernizr.js
+
+GET /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Status: 200 OK. /
+
+GET /static/tmp/VTQtOys5.css
+Accept: text/css,*/*;q=0.1
+
+Status: 304 Not Modified. /static/tmp/VTQtOys5.css
+
+GET /static/js/modernizr.js
+Accept: */*
+GET [("?-nhfNco9","")]
+
+Status: 304 Not Modified. /static/js/modernizr.js
+
+GET /static/tmp/xVBYmhAB.js
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Status: 304 Not Modified. /static/tmp/xVBYmhAB.js
+
+GET /auth/login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Status: 200 OK. /auth/login
+
+GET /static/tmp/zfWtkHUp.css
+Accept: text/css,*/*;q=0.1
+
+GET /static/js/modernizr.js
+Accept: */*
+GET [("?-nhfNco9","")]
+
+Status: 200 OK. /static/tmp/zfWtkHUp.css
+
+Status: 304 Not Modified. /static/js/modernizr.js
+
+GET /static/tmp/1B2M2Y8A.js
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+Status: 200 OK. /static/tmp/1B2M2Y8A.js
