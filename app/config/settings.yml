@@ -1,6 +1,6 @@
 Default: &defaults
   host: "127.0.0.1"
-  port: 8282
+  port: 8888
   copyright: Insert copyright statement here
   #analytics: UA-YOURCODE
 
@@ -14,5 +14,5 @@ Staging:
   <<: *defaults
 
 Production:
-  approot: "http://gitweb.konn-san.com"
+  approot: "http://konn-san.com/test"
   <<: *defaults

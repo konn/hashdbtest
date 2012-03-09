@@ -1,7 +1,6 @@
 module Handler.Root where
 import Yesod.Handler
 import Import
-import Yesod.Auth
 
 -- This is a handler function for the GET request method on the RootR
 -- resource pattern. All of your resource patterns are defined in
@@ -18,4 +17,4 @@ getRootR = do
         $(widgetFile "homepage")
 
 getTestR :: Handler ()
-getTestR = redirect $ AuthR LoginR
+getTestR = redirect $ RootR
