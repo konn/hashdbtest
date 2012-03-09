@@ -5,7 +5,7 @@ import Network.Wai.Handler.Warp
 import qualified Network.HTTP.Types as H
 
 main :: IO ()
-main = run 8888 application
+main = run 89104 application
 
 application :: Application
 application req@Request {pathInfo=["test"]} = do
