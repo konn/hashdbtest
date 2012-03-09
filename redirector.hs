@@ -14,5 +14,8 @@ application req@Request {pathInfo=["test"]} = do
   let status = if httpVersion req >= H.http11
                then H.status303
                else H.status302
-  return $ responseLBS status [("location", "http://konn-san.com/test2/")] "moved"
+  return $ responseLBS status [("location", "http://konn-san.com/test2/redirected")] "moved"
+application req@Request {pathInfo=["redirected"]} = do
+  return $ responseLBS H.status200 [] "hey, you're redirected!"
 application _ = return $ responseLBS H.status200 [] "it works!"
+
