@@ -1,5 +1,6 @@
 [localhost www.konn-san.com konn-san.com]
 /test/ >> 127.0.0.1:8888/
+/test2/ >> 127.0.0.1:8910/
 
 [gitweb.konn-san.com]
 / >> :8282/
