@@ -5,6 +5,7 @@ Default: &defaults
   #analytics: UA-YOURCODE
 
 Development:
+  approot: "http://konn-san.com/test"
   <<: *defaults
 
 Testing:

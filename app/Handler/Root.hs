@@ -17,4 +17,7 @@ getRootR = do
         $(widgetFile "homepage")
 
 getTestR :: Handler ()
-getTestR = redirect $ RootR
+getTestR = do
+  render <- getUrlRender
+  liftIO $ print $ render RootR
+  redirect $ render RootR
