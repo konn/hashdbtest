@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 [localhost]
 /test2/ >> localhost:8910/
+=======
+[localhost www.konn-san.com konn-san.com]
+/test/ >> 127.0.0.1:8888/
+/test2/ >> 127.0.0.1:8910/
+
+[gitweb.konn-san.com]
+/ >> :8282/
+>>>>>>> 85e0b482bf33b6c94e74fbc8d41f6ff50a4a611f
